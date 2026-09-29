@@ -29,3 +29,8 @@ Empirical study of random graph percolation near the critical regime ($p \sim 1/
 Install dependencies via pip:
 ```bash
 pip install networkx numpy matplotlib
+
+## Usage Example
+```bash
+python stochastic.py
+python erdosrenyi.py
