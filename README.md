@@ -6,14 +6,14 @@ A Python-based framework implementing stochastic graph analysis, percolation pha
 
 The repository contains two modular simulation modules:
 
-### 1. Social Network Evolution (`social_network_evolution.py`)
+### 1. Social Network Evolution (`stochastic.py`)
 An agent-based stochastic simulation tracking the evolution of social ties across multidimensional attribute spaces:
 - **Homophily-Driven Edge Formation:** Dynamic interaction probability weighted by agent trait similarity.
 - **Triadic Closure Dynamics:** Transitive closure mechanics strengthening secondary social triangles.
 - **Decay & Pruning:** Continuous exponential link weight decay with automated threshold pruning.
 - **Ego-Network Visualization:** Focused spring-layout rendering centered on maximum weighted-degree agents.
 
-### 2. Erdős–Rényi Phase Transition (`erdos_renyi.py`)
+### 2. Erdős–Rényi Phase Transition (`erdosrenyi.py`)
 Empirical study of random graph percolation near the critical regime ($p \sim 1/N$):
 - **Percolation Analysis:** Tracking giant component emergence across subcritical and supercritical regimes ($p = 1.5/N$).
 - **Degree & Component Distribution:** Single-run visualization contrasted against aggregated Monte Carlo experiments (400 realizations).
